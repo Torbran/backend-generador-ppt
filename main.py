@@ -1,3 +1,5 @@
+import sys # Asegúrate de que sys está importado si no lo estaba ya
+print("DEBUG: === Inicio del script main.py ===", file=sys.stderr)
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
